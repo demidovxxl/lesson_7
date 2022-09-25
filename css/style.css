@@ -1,0 +1,317 @@
+body {
+	font-family: "Lato";
+	font-weight: 400;
+	color: #424551;
+}
+
+[class*=__title]{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	text-align: center;
+	color: #1E212C;
+}
+
+[class*=__image]{
+	max-width: 100%;
+}
+/* -------------------------------- course ---------------------------------------*/
+.course {
+	background: url('../img/circles.png') 0 100% no-repeat, url('../img/dots.png') 100% 40% no-repeat, url('../img/shapes-sharp.png') 85% 100% no-repeat, url('../img/shapes.png') 172px 56px no-repeat, linear-gradient(60deg, rgba(255,63,58,0.2) 0%, rgba(247,94,5,0.2) 100%);
+}
+
+.course__conteiner {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.course__block{
+	padding: 120px 0;
+}
+.course__mini-title {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #FF3F3A;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+
+/* -------------------------------- article ---------------------------------------*/
+.article{
+	margin-bottom: 60px;
+}
+
+.article__conteiner {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+.article__title{
+	text-align: left;
+	padding: 26px 0;
+	margin-bottom: 40px;
+}
+.article__image{
+	margin-bottom: 60px;
+}
+
+.article__text.article__text_black{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.article__text{
+	line-height: 26px;
+	margin-bottom: 24px;
+}
+
+.article__text.article__text_quote{
+	background: url("../img/braces.png") 0 25px no-repeat;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	padding: 24px 0 24px 58px;
+	color: #1E212C;
+	margin-bottom: 0;
+}
+
+.article__list{
+	margin-bottom: 24px;
+}
+.article__item~li{
+	margin-top: 4px;
+}
+.article__item{
+	background: url("../img/check.png") 0 5px no-repeat;
+	padding-left: 32px;
+	line-height: 25.6px;
+}
+
+
+/* -------------------------------- team ---------------------------------------*/
+
+.team {
+	background: url("../img/vector-grey.png") 178px 80px no-repeat, url("../img/circles-left-grey.png") 70px 55% no-repeat, url("../img/dots-grey.png") 69% 40px no-repeat, url("../img/shapes-grey-one.png") 100% 33% no-repeat, url("../img/shapes-grey.png") 64% 59% no-repeat,  url("../img/circles-right-grey.png") 100% 100% no-repeat, url("../img/dots-grey.png") 19% 90% no-repeat, #F4F5F7;
+}
+
+.team__conteiner {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.team__block {
+	display: inline-block;
+	max-width: 285px;
+	margin-right: 30px;
+}
+.team__block-title {
+	margin-bottom: 60px;
+}
+
+.team__block.team__block_last{
+	margin: 0;
+}
+
+.team__mini-title {
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: #1E212C;
+	text-align: left;
+	margin-bottom: 8px;
+}
+
+.team__title{
+	text-align: left;
+}
+.team__tutors {
+	margin-bottom: 180px;
+}
+.team__block-background{
+	background: #FFCF2D;
+	border-radius: 4px;
+	margin-bottom: 16px;
+	padding: 15px 15px 0 15px;
+}
+.team__block-background.team__block-background_first{
+	background: linear-gradient(180deg, rgba(30, 33, 44, 0) 43.9%, rgba(30, 33, 44, 0.03) 55.21%, rgba(30, 33, 44, 0.33) 68.73%, rgba(30, 33, 44, 0.56) 76.17%, rgba(30, 33, 44, 0.768225) 83.75%, rgba(30, 33, 44, 0.92) 91.49%, #1E212C 100%), #FFCF2D;;
+}
+
+.team__name {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 4px;
+}
+.team__position {
+	line-height: 160%;
+	text-align: center;
+	color: #787A80;
+}
+
+/* ---------------------------- reviews -------------------------- */
+
+.reviews__mini-title{
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.reviews__block-title{
+	margin-bottom: 60px;
+}
+
+.reviews__block{
+	background-color: #ffffff;
+	margin: 0 auto;
+	max-width: 1020px;
+	margin-bottom: 60px;
+}
+
+.reviews__block .article__text.article__text_quote{
+	background: url("../img/braces.png") 105px 64px no-repeat;
+	padding: 64px 105px 64px 163px;
+	font-weight: 400;
+	color: #424551;
+}
+
+.article__text_quote>p{
+	margin-bottom: 24px;
+}
+.reviews__person{
+	padding-top: 4px;
+	display: inline-block;
+}
+.team__name.team__name_reviews{
+	text-align: left;
+	margin-bottom: 4px;
+}
+
+.team__position.team__name_reviews{
+	text-align: left;
+}
+.reviews__image-round{
+	margin-right: 20px;
+}
+
+.reviews__dots{
+	text-align: center;
+}
+.reviews__dots>span{
+	display: inline-block;
+	width: 30px;
+	border: 3px solid #424551;
+}
+.reviews__dots>span~span{
+	border: 3px solid #B3B7BC;
+}
+
+/* ---------------------------- subscribe ----------------------------- */
+.subscribe{
+	background: url("../img/illustration.png") 0 100% no-repeat, url("../img/illustration.png") 100% 100% no-repeat, linear-gradient(60deg, rgba(255,63,58,0.2) 0%, rgba(247,94,5,0.2) 100%);
+
+}
+.subscribe__conteiner{
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 120px 0 180px 0;
+}
+.subscribe__block-title{
+	margin-bottom: 60px;
+}
+.subscribe__mini-title{
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+	text-align: center;
+	margin-bottom: 8px;
+}
+
+.subscribe__form{
+	max-width: 600px;
+	margin: 0 auto;
+}
+.subscribe__email-form{
+	width: 420px;
+	height: 52px;
+	margin-right: 24px;
+	padding: 13px 16px;
+	border: 1px solid #D7DADD;
+	border-radius: 4px;
+}
+.subscribe__email-button{
+	width: 150px;
+	height: 52px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+}
+
+/* ---------------------------- homework -------------------------- */
+.homework{
+	background: url("../img/avocato.webp") no-repeat 3% 95% fixed, url("../img/kvnfull.webp") no-repeat 95% 15% fixed, linear-gradient(129deg, rgba(0,212,255,0.7) 0%, rgba(215,218,221,0.7) 0%, rgba(21,37,179,0.7) 100%), url("../img/final-space-big.jpg");
+}
+.homework__conteiner{
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+.homework__mini-title{
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #ffffff;
+	text-align: left;
+	margin-bottom: 8px;
+}
+.homework__block-title .subscribe__title{
+	color: rgb(237, 229, 229);
+}
+[class*=homework__repeat]{
+	font-weight: 700;
+	font-size: 20px;
+	width: 100%;
+	height: 500px;
+	border-radius: 4px;
+	border: 2px solid black;
+	margin: 0px auto 40px;
+}
+.homework__repeat{
+	background: url("../img/cake.webp") repeat;
+}
+
+.homework__repeat_no-repeat{
+	color: white;
+	background: url("../img/avocato.webp") no-repeat 100% 110px, url("../img/cake.webp") no-repeat, url("../img/final-space-trb.jpg") fixed center;
+}
+.homework__repeat_local{
+	color: white;
+	background: url("../img/avocato.webp") no-repeat 80% 50px, url("../img/cake.webp") no-repeat, url("../img/final-space.jpg") local center;
+}
+.homework__repeat_size{
+	color: white;
+	background: url("../img/final-space.png") 0 0/100% auto no-repeat;
+}
+.homework__repeat_contain{
+	color: white;
+	height: 300px;
+	background: url("../img/final-space.png") center/contain no-repeat;
+}
+.homework__repeat_cover{
+	color: white;
+	height: 600px;
+	background: url("../img/final-space-trb.jpg") 0 0/cover no-repeat;
+}
